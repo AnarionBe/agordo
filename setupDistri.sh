@@ -29,5 +29,8 @@ wget https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Regul
 # The following 2 line might not working
 sudo mv "Hack Regular Nerd Font Complete Mono.ttf" /usr/share/fonts/TTF
 fc-cache -f -v
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 cat $home/configs/.zshrc > ~/.zshrc
+
+
+# Last one
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
