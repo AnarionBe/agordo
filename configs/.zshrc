@@ -106,8 +106,8 @@ man() {
 	      man "$@"
 }
 
-neofetch
 
+neofetch
 source ~/.bashrc
 
 POWERLEVEL9K_MODE='nerdfont-complete'
