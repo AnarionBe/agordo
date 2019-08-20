@@ -23,11 +23,20 @@
 
 home=${PWD}
 
+mkdir ~/tmp
+
 case $1 in
     code)
-        mkdir ~/tmp
         git clone https://aur.archlinux.org/vscodium-bin.git ~/tmp/vscodium
         cd ~/tmp/vscodium
         makepkg -si
     ;;
+    kraken)
+        rm -rf ~/applications/gitkraken
+        cd ~/tmp
+        wget https://release.gitkraken.com/linux/gitkraken-amd64.tar.gz
+        tar xvzf gitkraken-amd64.tar.gz
+        mv ./gitkraken ~/applications
 esac
+
+rm -rf ~/tmp

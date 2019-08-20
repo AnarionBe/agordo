@@ -13,6 +13,7 @@
 - [x] VSCode
 - [x] VSCode extensions
 - [x] Add gitkraken
+- [x] gitkraken upate
 
 ## TODO
 
@@ -21,5 +22,4 @@
 - [ ] Add Rambox
 - [ ] Rambox update
 - [ ] Add VSCode config
-- [ ] gitkraken upate
 - [ ] ...
