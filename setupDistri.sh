@@ -21,7 +21,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-home=${PWD}
+agordo=${PWD}
 
 cd ~
 mkdir tmp
@@ -42,12 +42,14 @@ do
     codium --install-extension $line
 done < "$HOME/agordo/codiumExtensions.list"
 
+cp -r ~/configs/vscode ~/.config/VSCodium/User
+
 # Configure zsh
 cd ~/tmp
 wget https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete%20Mono.ttf
 sudo mv "Hack Regular Nerd Font Complete Mono.ttf" /usr/share/fonts/TTF
 fc-cache -f -v
-cat $home/configs/.zshrc > ~/.zshrc
+cat $agordo/configs/.zshrc > ~/.zshrc
 
 # install gitkraken
 cd ~/tmp

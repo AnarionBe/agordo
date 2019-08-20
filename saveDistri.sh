@@ -1,7 +1,7 @@
 #!/bin/sh
 # The MIT License (MIT)
 
-# Copyright (c) 2019 
+# Copyright (c) 2019
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -27,6 +27,9 @@ cd ~/agordo
 codium --list-extensions > ~/agordo/codiumExtensions.list
 cat ~/.bashrc > ./configs/.bashrc
 cat ~/.zshrc > ./configs/.zshrc
+
+# Save codium config
+cp -r ~/.config/VSCodium/User ./configs/vscode
 
 git add .
 git commit -am "New config"

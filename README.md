@@ -12,6 +12,7 @@
 - [x] ZSH config
 - [x] VSCode
 - [x] VSCode extensions
+- [x] Add VSCode config
 - [x] Add gitkraken
 - [x] gitkraken upate
 
@@ -21,5 +22,5 @@
 - [ ] Postman update
 - [ ] Add Rambox
 - [ ] Rambox update
-- [ ] Add VSCode config
+- [ ] Tilda config
 - [ ] ...
