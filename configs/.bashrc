@@ -1,4 +1,4 @@
 export PATH=~/applications/gitkraken:~/applications/Rambox:$PATH::~/agordo
 
-alias "code"="exit"
+alias "code"="vscodium"
 alias "kraken"="gitkraken&"
