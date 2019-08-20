@@ -32,6 +32,10 @@ cat ~/.zshrc > ./configs/.zshrc
 rm -rf ./configs/vscode
 rsync -r --exclude 'workspaceStorage/' ~/.config/VSCodium/User/ ./configs/vscode
 
+# Save tilda config
+rm -rf ./configs/tilda
+cp -r ~/.config/tilda ./configs/tilda
+
 git add .
 git commit -am "New config"
 git push

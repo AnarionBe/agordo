@@ -32,6 +32,9 @@ sudo pacman -S base-devel zsh neofetch zsh-theme-powerlevel9k zsh-autosuggestion
 
 cat $home/configs/.bashrc > ~/.bashrc
 
+# Tilda config
+cp -r ./configs/tilda ~/.config/tilda
+
 # Install codium
 git clone https://aur.archlinux.org/vscodium-bin.git ~/tmp/vscodium
 cd ~/tmp/vscodium
