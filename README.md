@@ -15,6 +15,7 @@
 5. To update a package intalled manually, run `updatePackage.sh <PACKAGE_NAME>`
 
 ⚠️ This repo contain my custom configuration. Don't hesitate to change whatever you want.
+
 ⚠️ By default, I use my aliases as package name for `updatePackage.sh`
 
 ## Done
