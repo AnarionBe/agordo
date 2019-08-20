@@ -36,7 +36,6 @@ cat $home/configs/.bashrc > ~/.bashrc
 git clone https://aur.archlinux.org/vscodium-bin.git ~/tmp/vscodium
 cd ~/tmp/vscodium
 makepkg -si
-echo "alias code=codium" >> ~/.bashrc
 
 while IFS= read -r line
 do
@@ -50,6 +49,13 @@ sudo mv "Hack Regular Nerd Font Complete Mono.ttf" /usr/share/fonts/TTF
 fc-cache -f -v
 cat $home/configs/.zshrc > ~/.zshrc
 
+# install gitkraken
+cd ~/tmp
+wget https://release.gitkraken.com/linux/gitkraken-amd64.tar.gz
+tar xvzf gitkraken-amd64.tar.gz
+mv ./gitkraken ~/applications
+
 
 # Last one
+rm -rf ~/tmp
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
