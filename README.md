@@ -6,7 +6,7 @@
   - Update non-pacman package script
   
 ## TODO
-  - [] Add Postman
-  - [] Add Rambox
-  - [] Add VSCode config
-  - [] ...
+  - [ ] Add Postman
+  - [ ] Add Rambox
+  - [ ] Add VSCode config
+  - [ ] ...
