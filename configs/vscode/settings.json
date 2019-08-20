@@ -1,0 +1,18 @@
+{
+    "files.autoSave": "onFocusChange",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Material Theme High Contrast",
+    "window.zoomLevel": -1,
+    "markdown.preview.breaks": true,
+    "sshfs.configs": [
+        {
+            "host": "192.168.1.36",
+            "name": "raspi",
+            "password": "raspberry",
+            "root": "/home/pi/",
+            "username": "pi"
+        }
+    ],
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.formatOnSave": true
+}
