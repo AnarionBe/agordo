@@ -13,6 +13,10 @@
   
 ## TODO
   - [ ] Add Postman
+  - [ ] Postman update
   - [ ] Add Rambox
+  - [ ] Rambox update
   - [ ] Add VSCode config
+  - [ ] Add gitkraken
+  - [ ] gitkraken upate
   - [ ] ...
