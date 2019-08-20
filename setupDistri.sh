@@ -60,6 +60,12 @@ wget https://release.gitkraken.com/linux/gitkraken-amd64.tar.gz
 tar xvzf gitkraken-amd64.tar.gz
 mv ./gitkraken ~/applications
 
+# Install postman
+cd ~/tmp
+wget https://dl.pstmn.io/download/latest/linux\?arch\=64 -O postman.tar.gz
+tar xvzf postman.tar.gz
+mv ./Postman ~/applications
+
 
 # Last one
 rm -rf ~/tmp
