@@ -29,7 +29,8 @@ cat ~/.bashrc > ./configs/.bashrc
 cat ~/.zshrc > ./configs/.zshrc
 
 # Save codium config
-cp -r ~/.config/VSCodium/User ./configs/vscode
+rm -rf ./configs/vscode
+rsync -r --exclude 'workspaceStorage/' ~/.config/VSCodium/User/ ./configs/vscode
 
 git add .
 git commit -am "New config"
