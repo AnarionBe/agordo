@@ -69,6 +69,7 @@ mv ./Postman ~/applications
 # Install Rambox
 cd ~/tmp
 wget https://github.com/ramboxapp/community-edition/releases/download/0.6.9/Rambox-0.6.9-linux-x86_64.AppImage -O Rambox
+chmod +x Rambox
 mv ./Rambox ~/applications
 
 
