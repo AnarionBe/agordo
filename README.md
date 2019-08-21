@@ -30,9 +30,9 @@
 - [x] Tilda config
 - [x] Add Postman
 - [x] Postman update
+- [x] Add Rambox
 
 ## TODO
 
-- [ ] Add Rambox
 - [ ] Rambox update
 - [ ] ...

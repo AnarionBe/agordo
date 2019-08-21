@@ -60,11 +60,16 @@ wget https://release.gitkraken.com/linux/gitkraken-amd64.tar.gz
 tar xvzf gitkraken-amd64.tar.gz
 mv ./gitkraken ~/applications
 
-# Install postjman
+# Install postman
 cd ~/tmp
 wget https://dl.pstmn.io/download/latest/linux\?arch\=64 -O postman.tar.gz
 tar xvzf postman.tar.gz
 mv ./Postman ~/applications
+
+# Install Rambox
+cd ~/tmp
+wget https://github.com/ramboxapp/community-edition/releases/download/0.6.9/Rambox-0.6.9-linux-x86_64.AppImage -O Rambox
+mv ./Rambox ~/applications
 
 
 # Last one
