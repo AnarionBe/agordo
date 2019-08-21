@@ -36,7 +36,15 @@ case $1 in
         cd ~/tmp
         wget https://release.gitkraken.com/linux/gitkraken-amd64.tar.gz
         tar xvzf gitkraken-amd64.tar.gz
-        mv ./gitkraken ~/applications
+        mv ./gitkraken ~/application
+    ;;
+    postman)
+        rm -rf ~/applications/Postman
+        cd ~/tmp
+        wget https://dl.pstmn.io/download/latest/linux\?arch\=64 -O postman.tar.gz
+        tar xvzf postman.tar.gz
+        mv ./Postman ~/applications
+    ;;
 esac
 
 rm -rf ~/tmp

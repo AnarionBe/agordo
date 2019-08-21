@@ -29,10 +29,10 @@
 - [x] gitkraken upate
 - [x] Tilda config
 - [x] Add Postman
+- [x] Postman update
 
 ## TODO
 
-- [ ] Postman update
 - [ ] Add Rambox
 - [ ] Rambox update
 - [ ] ...
