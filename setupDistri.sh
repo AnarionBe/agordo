@@ -72,6 +72,15 @@ wget https://github.com/ramboxapp/community-edition/releases/download/0.6.9/Ramb
 chmod +x Rambox
 mv ./Rambox ~/applications
 
+# install docker
+sudo tee /etc/modules-load.d/loop.conf <<< "loop"
+sudo modprobe loop
+sudo pacman -S docker docker-compose
+sudo systemctl start docker.service
+sudo systemctl enable docker.service
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
 
 # Last one
 rm -rf ~/tmp

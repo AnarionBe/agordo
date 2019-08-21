@@ -31,6 +31,7 @@
 - [x] Add Postman
 - [x] Postman update
 - [x] Add Rambox
+- [x] Add docker and docker-compose
 
 ## TODO
 
