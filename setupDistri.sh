@@ -27,6 +27,9 @@ cd ~
 mkdir tmp
 mkdir applications
 
+# Configure git
+cat $home/configs/.gitconfig > ~/.gitconfig
+
 # Install officials packages
 sudo pacman -S base-devel zsh neofetch zsh-theme-powerlevel9k zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search tilda
 

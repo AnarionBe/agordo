@@ -2,9 +2,9 @@
 
 ## Features
 
-- Fast setup script
-- Save actual configuration script
-- Update non-pacman package script
+-   Fast setup script
+-   Save actual configuration script
+-   Update non-pacman package script
 
 ## Usage
 
@@ -20,20 +20,21 @@
 
 ## Done
 
-- [x] ZSH
-- [x] ZSH config
-- [x] VSCode
-- [x] VSCode extensions
-- [x] Add VSCode config
-- [x] Add gitkraken
-- [x] gitkraken upate
-- [x] Tilda config
-- [x] Add Postman
-- [x] Postman update
-- [x] Add Rambox
-- [x] Add docker and docker-compose
+-   [x] ZSH
+-   [x] ZSH config
+-   [x] VSCode
+-   [x] VSCode extensions
+-   [x] Add VSCode config
+-   [x] Add gitkraken
+-   [x] gitkraken upate
+-   [x] Tilda config
+-   [x] Add Postman
+-   [x] Postman update
+-   [x] Add Rambox
+-   [x] Add docker and docker-compose
+-   [x] Git configuration
 
 ## TODO
 
-- [ ] Rambox update
-- [ ] ...
+-   [ ] Rambox update
+-   [ ] ...

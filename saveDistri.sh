@@ -23,6 +23,9 @@
 
 cd ~/agordo
 
+# Saving git configuration
+cat ~/.gitconfig > ./configs/.gitconfig
+
 # Saving codium extensions
 codium --list-extensions > ~/agordo/codiumExtensions.list
 cat ~/.bashrc > ./configs/.bashrc
