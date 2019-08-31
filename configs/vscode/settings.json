@@ -14,5 +14,10 @@
         }
     ],
     "C_Cpp.updateChannel": "Insiders",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "terminal.integrated.rendererType": "dom",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.eslintIntegration": true,
+    "prettier.jsxBracketSameLine": true,
+    "prettier.tabWidth": 4
 }

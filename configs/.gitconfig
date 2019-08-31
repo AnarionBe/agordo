@@ -1,0 +1,5 @@
+[user]
+	email = marcodb.debona@gmail.Com
+	name = Marco De Bona
+[pull]
+	rebase = preserve
