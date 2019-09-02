@@ -3,3 +3,4 @@ export PATH=~/applications/gitkraken:~/applications/Rambox:$PATH::~/agordo:~/app
 alias "code"="vscodium"
 alias "kraken"="gitkraken&"
 alias "postman"="Postman&"
+alias "rambox"="rambox&"
