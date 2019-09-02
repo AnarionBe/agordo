@@ -1,0 +1,11 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+numpad_divide",
+        "command": "docthis.documentThis"
+    },
+    {
+        "key": "ctrl+alt+d ctrl+alt+d",
+        "command": "-docthis.documentThis"
+    }
+]

@@ -19,5 +19,15 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "prettier.eslintIntegration": true,
     "prettier.jsxBracketSameLine": true,
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "docthis.includeAuthorTag": true,
+    "docthis.includeDescriptionTag": true,
+    "docthis.includeDateTag": true,
+    "docthis.authorName": "AnarionBe"
 }
