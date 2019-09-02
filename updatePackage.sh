@@ -43,7 +43,7 @@ case $1 in
         cd ~/tmp
         wget https://dl.pstmn.io/download/latest/linux\?arch\=64 -O postman.tar.gz
         tar xvzf postman.tar.gz
-        mv ./Postman ~/applications/postman
+        mv ./Postman ~/applications/Postman
     ;;
 esac
 
