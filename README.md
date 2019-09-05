@@ -33,8 +33,10 @@
 -   [x] Add Rambox
 -   [x] Add docker and docker-compose
 -   [x] Git configuration
+-   [x] Install dbeaver
 
 ## TODO
 
 -   [ ] Rambox update
+-   [ ] Update dbeaver
 -   [ ] ...

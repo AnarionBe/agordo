@@ -75,6 +75,11 @@ wget https://github.com/ramboxapp/community-edition/releases/download/0.6.9/Ramb
 chmod +x Rambox
 mv ./Rambox ~/applications
 
+cd ~/tmp
+wget https://dbeaver.io/files/6.1.5/dbeaver-ce-6.1.5-linux.gtk.x86_64.tar.gz
+tar xvzf dbeaver-ce-6.1.5-linux.gtk.x86_64.tar.gz
+mv ./dbeaver ~/applications
+
 # install docker
 sudo tee /etc/modules-load.d/loop.conf <<< "loop"
 sudo modprobe loop
